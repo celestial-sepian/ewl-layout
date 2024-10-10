@@ -1,0 +1,99 @@
+html {
+    --color-white-1: rgb(255, 255, 255);
+    --color-white-2: rgb(253, 252, 252);
+    --color-white-3: rgb(250, 250, 250);
+
+    --color-gray-1: rgb(98, 98, 98);
+
+    --color-dark-1: rgb(30, 30, 30);
+    --color-dark-2: rgb(40, 40, 40);
+    --color-dark-3: rgb(50, 50, 50);
+    --color-dark-4: rgb(60, 60, 60);
+    --color-dark-5: rgb(70, 70, 70);
+    --color-dark-6: rgb(80, 80, 80);
+    --color-dark-7: rgb(90, 90, 90);
+    --color-dark-8: rgb(100, 100, 100);
+    --color-dark-9: rgb(110, 110, 110);
+    --color-dark-10: rgb(120, 120, 120);
+    --color-dark-11: rgb(130, 130, 130);
+    
+    --color-yellow-orange-1: rgb(255, 188, 53);
+    --color-yellow-orange-2: rgb(255, 191, 63);
+    --color-yellow-orange-2: rgb(254, 196, 80);
+    --color-yellow-orange-3: rgb(253, 202, 100);
+    --color-yellow-orange-4: rgb(253, 211, 126);
+    --color-yellow-orange-5: rgb(253, 219, 150);
+    --color-yellow-orange-6: rgb(253, 224, 166);
+    --color-yellow-orange-7: rgb(252, 228, 179);
+    --color-yellow-orange-8: rgb(251, 233, 195);
+    --color-yellow-orange-9: rgb(255, 242, 215);
+    --color-yellow-orange-10: rgb(255, 246, 228);
+    --color-yellow-orange-11: rgb(255, 249, 237);
+    --color-yellow-orange-12: rgb(255, 252, 246);
+    
+
+
+    /* background color */
+    --background-color-white-1: var(--color-white-1);
+    --background-color-white-2: var(--color-white-2);
+    --background-color-white-3: var(--color-white-3);
+    --background-color-yellow-1: var(--color-yellow-orange-1);
+    
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color-white-1);
+}
+
+
+.ewl-navbar {
+    background-color: var(--color-dark-5);
+
+}
+.ewl-navbar-text {
+    color: var(--color-yellow-orange-2);
+}
+
+
+.ewl-panel-heading-container {
+    /* background-color: var(--color-yellow-orange-2); */
+    /* outline: 2px solid var(--color-yellow-orange-2); */
+}
+.ewl-panel-heading {
+    background-color: var(--color-dark-6);
+    color: var(--color-yellow-orange-3);
+}
+
+.ewl-panel-divider {
+    border: 1px solid var(--color-yellow-orange-2);
+    opacity: 50%;
+}
+
+.ewl-panel-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-dark-11);
+}
+
+.ewl-panel-list-item {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.ewl-panel-list-item:hover {
+    background-color: var(--color-yellow-orange-2); 
+}
+
+.ewl-panel-container {
+    box-shadow: 0px 0px 6px 2px var(--color-yellow-orange-2);
+}
+.ewl-panel-container,
+.ewl-panel-list-group,
+.ewl-panel-list-group-item {
+    background-color: var(--color-yellow-orange-10);
+}

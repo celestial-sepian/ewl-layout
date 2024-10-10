@@ -1,0 +1,84 @@
+@import url(ewl-color-scheme.css);
+@import url(ewl-font.css);
+
+html,
+body {
+    background-color: var(--gray-500);
+}
+
+.ewl-navbar {
+    background-color: var(--gray-800);
+    box-shadow: 0px 0px 5px 3px var(--yellow-500);
+}
+
+.ewl-navbar-brand-link {
+    font-family: var(--language-edu-au-vic-wa-nt);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    /* font-size: x-large; */
+    color: var(--yellow-500);
+}
+.ewl-navbar-brand-link:hover {
+    color: var(--yellow-500);
+}
+.ewl-navbar-link {
+    color: var(--yellow-500);
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--ibm-plex-sans);
+}
+.ewl-navbar-link:hover {
+    background-color: var(--yellow-500);
+    color: var(--gray-800)   
+}
+
+
+
+.ewl-navbar-dropdown-list {
+    background-color: var(--gray-800);
+    box-shadow: 0px 0px 5px 3px var(--yellow-500);
+}
+.ewl-navbar-dropdown-link {
+    color: var(--yellow-500);
+    width: 300px;
+}
+.ewl-navbar-dropdown-link:hover {
+    color: var(--yellow-900);
+}   
+
+
+.ewl-home-tab {
+    background-color: var(--yellow-500);
+    /* box-shadow: 0px 0px 2px 3px  var(--gray-900); */
+}
+.ewl-home-tab-link {
+    color: var(--gray-900);
+    font-weight: bold;
+}
+
+.ewl-home-tab-item:hover{
+    background-color: var(--gray-900);
+}
+.ewl-home-tab-link:hover {
+    color: var(--yellow-500)
+}
+
+
+.ewl-home-tab-item,
+.ewl-home-tab-link {
+    transition: all .2s linear;
+}
+
+
+
+
+@media screen and (width < 1000px) {
+    .ewl-navbar-dropdown-link {
+        /* color: var(--yellow-500); */
+        width: 200px;
+    }   
+}
