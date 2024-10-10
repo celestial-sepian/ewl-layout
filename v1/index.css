@@ -7,8 +7,8 @@ body {
 }
 
 .ewl-navbar {
-    background-color: var(--gray-800);
-    box-shadow: 0px 0px 5px 3px var(--yellow-500);
+    background-color: var(--gray-900);
+    /* box-shadow: 0px 0px 5px 3px var(--yellow-500); */
 }
 
 .ewl-navbar-brand-link {
@@ -26,18 +26,17 @@ body {
 .ewl-navbar-link {
     color: var(--yellow-500);
     font-weight: bold;
-    width: 80px;
+    width: 100px;
     text-align: center;
-    font-size: 15px;
+    /* font-size: 15px; */
     font-family: var(--ibm-plex-sans);
+    transition: background-color 250ms linear;
 }
-.ewl-navbar-link:hover {
+.ewl-navbar-link:hover,
+.ewl-navbar-link:focus {
     background-color: var(--yellow-500);
     color: var(--gray-800)   
 }
-
-
-
 .ewl-navbar-dropdown-list {
     background-color: var(--gray-800);
     box-shadow: 0px 0px 5px 3px var(--yellow-500);
@@ -49,6 +48,51 @@ body {
 .ewl-navbar-dropdown-link:hover {
     color: var(--yellow-900);
 }   
+
+
+
+
+
+.ewl-home-bg-img-container {
+    background-color: var(--gray-900);
+    background-image: url(background.png);
+    /* background-size: cover; */
+    height: 600px;
+    box-shadow: 0px 3px 12px 1px var(--yellow-500);
+}
+.ewl-home-bg-img-inner {
+    height: 100%;
+}
+.ewl-home-bg-img-content-hold {
+    width: 800px;    
+}
+.ewl-home-bg-img-content-hold > h1, h3 {
+    background: -webkit-linear-gradient(var(--yellow-500), var(--blue-200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ewl-home-bg-img-content-hold > h1 {
+    font-family: var(--language-edu-au-vic-wa-nt);
+    font-size: 100px;
+    height: 150px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.ewl-home-bg-img-content-hold > p {
+    color: var(--blue-100);
+    /* background-color: var(--gray-900); */
+    padding: 20px 10px;
+    /* font-size: 12px; */
+    /* font-weight: bold; */
+    font-family: var(--font-roboto-condensed);
+    
+}
+
+
+
+
+
+
 
 
 .ewl-home-tab {
