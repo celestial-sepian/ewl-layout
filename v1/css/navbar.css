@@ -1,0 +1,24 @@
+@import url(ewl-font.css);
+
+.ewl-navbar {
+    /* height: 100px; */
+    /* background-color: var(--indigo); */
+    box-shadow: var(--ewl-box-shadow);
+    padding: 10px 0px;
+    background-color: var(--gray-700);
+    border-bottom: var(--ewl-border-color);
+    position: sticky;
+    top: 0;
+}
+
+.ewl-nav-inner {
+    text-align: center;
+}
+
+.ewl-nav-link {
+    color: var(--gray-200);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: var(--font-roboto-condensed);
+    font-weight: 900;
+}
