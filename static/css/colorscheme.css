@@ -29,6 +29,7 @@
 
 
     /* BLUE-SCALE */
+    --blue-50: #e3eefe;
     --blue-100: #cfe2ff;
     --blue-200: #9ec5fe;
     --blue-300: #6ea8fe;
@@ -101,6 +102,7 @@
 
 
     /* YELLOW-SCALE */
+    --yellow-50: #fff3cd;
     --yellow-100: #fff3cd;
     --yellow-200: #ffe69c;
     --yellow-300: #ffda6a;
