@@ -3,16 +3,16 @@
 
 const scroll100 = function() {
     let y = 0;
-
+    let step = 100;
     const upButton = document.querySelector(".up");
     const downButton = document.querySelector(".down");
 
 
     upButton.addEventListener('click', () => {
-        console.log("up 200", y);
+        console.log("up step", y);
         
         if (y > 0) {
-            y-=200;
+            y-=step;
             window.scrollTo({
                 top: y,
                 left: 0,
@@ -23,18 +23,16 @@ const scroll100 = function() {
 
 
     downButton.addEventListener('click', () => {
-        console.log("down 200", y);
+        console.log("down step", y);
 
-        if (y < document.body.scrollHeight) {
-            y+=200;
+        if ((y + window.innerHeight) < document.body.clientHeight) {
+            y+=step;
             window.scrollTo({
                 top: y,
                 left: 0,
                 behavior: "smooth"
             })
-            
         }
-        
     })
 };
 
